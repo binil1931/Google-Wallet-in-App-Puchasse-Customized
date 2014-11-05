@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView android:src="@drawable/wait" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/screen_wait" android:layout_gravity="center" android:visibility="gone" />
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/screen_main"
+        android:visibility="visible"
+        android:orientation="vertical">
+    	
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="horizontal"
+    	    android:layout_marginBottom="20dp">
+    	
+        	<ImageView
+        	   android:src="@drawable/buy_gas"
+    	       android:onClick="onBuyGasButtonClicked"
+    	       android:layout_width="wrap_content"
+    	       android:layout_height="wrap_content"
+    	       android:layout_marginBottom="20dp" />
+    	
+    	</LinearLayout>
+
+    	<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+    	   	
+    	</LinearLayout>
+    </LinearLayout>
+    
+</FrameLayout>
